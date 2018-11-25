@@ -30,8 +30,8 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  move = gets.strip
-  index = input_to_index(user_input)
+ 
+  index = input_to_index(user_input) move = gets.strip
   if index == valid_move?
     true
   #elsif valid_move?(board, index) == position_taken?
