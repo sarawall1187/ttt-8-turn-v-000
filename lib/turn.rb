@@ -36,5 +36,5 @@ def turn(board)
    move(board, input_to_index, user_input = "X")
   #elsif !valid_move?(board, index) 
    #loop "Please enter 1-9:"
-  #end
+  end
 end
