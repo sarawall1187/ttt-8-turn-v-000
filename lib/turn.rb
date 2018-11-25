@@ -35,5 +35,5 @@ def turn(board)
    # true
   #elsif valid_move?(board, index) == position_taken?
   #puts ""
- end
+ #end
 end
