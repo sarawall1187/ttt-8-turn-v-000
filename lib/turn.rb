@@ -35,6 +35,6 @@ def turn(board)
   if valid_move?(board, index)
     move
   elsif !valid_move?(board, index) 
-   loop 
+   loop "Please enter 1-9:"
   end
 end
