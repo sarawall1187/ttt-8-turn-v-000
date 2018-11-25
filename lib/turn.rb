@@ -33,7 +33,7 @@ def turn(board)
   user_input = gets.strip
   index = input_to_index(user_input)
   if valid_move?(board, index) 
-   move
+   move(board, input_to_index, user_input = "X")
   #elsif !valid_move?(board, index) 
    #loop "Please enter 1-9:"
   #end
