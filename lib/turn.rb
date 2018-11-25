@@ -34,7 +34,7 @@ def turn(board)
   index = input_to_index(user_input)
   if index == valid_move?(board, index)
     move
-  elsif index == !valid_move?(board, index) 
-  return "invalid"
+  #elsif index == !valid_move?(board, index) 
+   false
   end
 end
