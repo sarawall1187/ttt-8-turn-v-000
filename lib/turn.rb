@@ -34,7 +34,7 @@ def turn(board)
   index = input_to_index(user_input)
   while valid_move?(board, index) 
     move
-  until !valid_move?(board, index) 
+  #until !valid_move?(board, index) 
    #loop "Please enter 1-9:"
   end
 end
