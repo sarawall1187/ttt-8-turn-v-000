@@ -33,7 +33,7 @@ def turn(board)
   user_input = gets.strip
   index = input_to_index(user_input)
   if index == valid_move?(board, index)
-   puts move
+    move
   #elsif  
    
  end
