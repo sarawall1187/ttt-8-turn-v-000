@@ -35,6 +35,6 @@ def turn(board)
   if index == valid_move?(board, index)
     move
   elsif user_input == !valid_move?(board, index) 
-  puts "invalid"
+  return "invalid"
   end
 end
